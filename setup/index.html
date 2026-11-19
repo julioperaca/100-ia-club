@@ -1754,8 +1754,14 @@ pronto</div>
         <section id="e2-atu-pacote" class="pstep" data-toc="1. Guardar as suas regras">
           <div class="sub">NO CLAUDE CODE <span>·</span> antes de atualizar</div>
           <h3><span class="num">01</span>Se você ensinou alguma regra para uma skill, guarde antes</h3>
-          <p>A atualização copia as skills novas por cima das antigas. Uma regra que você colocou dentro de uma skill some junto. Se você já guardou as suas regras no <code>minhas-regras.md</code>, pode pular este passo. Se não, mande:</p>
-          <div class="fr"><span>olha as skills brain, design-system, copy, conteudo, contrato, criador-de-metodo, oferta e dashboard na minha pasta de skills e me diz se alguma tem regra que eu acrescentei. Se tiver, guarda cada uma no arquivo minhas-regras.md dentro do meu brain, com o nome da skill. Não muda nenhuma skill.</span><button class="copy" type="button">Copiar</button></div>
+          <p>A atualização copia as skills novas por cima das antigas. Uma regra que você colocou dentro de uma skill nos últimos dias some junto. Este passo guarda essas regras num arquivo do seu brain, para você devolver depois. Se você já guardou as suas regras no <code>minhas-regras.md</code>, pode pular.</p>
+          <ol class="steps">
+            <li class="step"><div><h3>Abra o app do Claude e entre na aba Code</h3><p>É o mesmo app que você usou no setup, na aba <strong>Code</strong>, no alto da tela.</p></div></li>
+            <li class="step"><div><h3>Abra uma sessão nova pelo + Criar</h3><p>Clique em <strong>+ Criar</strong>. Embaixo da caixa de mensagem, confira se está <strong>Este computador</strong> e a pasta <code>ia-club</code>, como no Bloco 02 do setup. Não precisa abrir a pasta brain: o Claude acha o seu brain sozinho.</p></div></li>
+            <li class="step"><div><h3>Copie a frase abaixo, cole na caixa de mensagem e envie</h3>
+              <div class="fr"><span>olha as skills brain, design-system, copy, conteudo, contrato, criador-de-metodo, oferta e dashboard na minha pasta de skills e me diz se alguma tem regra que eu acrescentei. Se tiver, guarda cada uma no arquivo minhas-regras.md dentro do meu brain, com o nome da skill. Não muda nenhuma skill.</span><button class="copy" type="button">Copiar</button></div></div></li>
+            <li class="step"><div><h3>Quando o Claude pedir para criar o arquivo, clique em Permitir uma vez</h3><p>Ele responde de um de dois jeitos: “não achei regra sua” (pronto, siga para o passo 2) ou mostra as regras que guardou no <code>minhas-regras.md</code>. Não feche esta sessão: o passo 2 continua nela.</p></div></li>
+          </ol>
           <div class="card info"><b><svg aria-hidden="true"><use href="#i-info"/></svg>NUNCA MEXEU EM SKILL?</b>Pode ir direto para o passo 2.</div>
         </section>
 
@@ -1767,9 +1773,9 @@ pronto</div>
           <ol class="steps">
             <li class="step"><div><h3>Descompacte o arquivo</h3><div class="os"><div><b>MAC</b>No Finder, abra Downloads e dê dois cliques em <code>pacote-atualizacao-19-11.zip</code>. Aparece ao lado a pasta <code>pacote-atualizacao-19-11</code>. Se ela já aparece sem o .zip, o Mac descompactou sozinho.</div><div><b>WINDOWS</b>No Explorador, abra Downloads, clique com o botão direito em <code>pacote-atualizacao-19-11.zip</code> e escolha Extrair tudo. Na janela que abre, clique em Extrair.</div></div></div></li>
             <li class="step"><div><h3>Arraste a pasta pacote-atualizacao-19-11 para dentro da ia-club</h3><p>Arraste a pasta, e não o arquivo .zip. Pode deixar as pastas dos pacotes antigos onde estão.</p></div></li>
-            <li class="step"><div><h3>Numa sessão do Code na pasta ia-club, mande a frase e aprove a cópia</h3>
+            <li class="step"><div><h3>Volte para a mesma sessão do passo 1, cole esta frase, envie e clique em Permitir uma vez quando o Claude pedir para copiar</h3><p>Se você pulou o passo 1, abra uma sessão nova do mesmo jeito: aba Code, <strong>+ Criar</strong>, Este computador e a pasta <code>ia-club</code>.</p>
               <div class="fr"><span>atualiza as skills da pasta pacote-atualizacao-19-11: para cada pasta que tem um SKILL.md dentro dela, copia a pasta inteira para a minha pasta de skills (~/.claude/skills no Mac, C:\Users\&lt;meu usuário&gt;\.claude\skills no Windows), por cima da versão antiga, com o SKILL.md direto dentro de cada uma. Não apaga nenhuma outra skill e não mexe na pasta brain. No fim, lista as skills que ficaram instaladas.</span><button class="copy" type="button">Copiar</button></div></div></li>
-            <li class="step"><div><h3>Se você guardou regras no passo 1, coloque de volta</h3>
+            <li class="step"><div><h3>Se você guardou regras no passo 1, mande esta frase na mesma sessão para colocar de volta</h3>
               <div class="fr"><span>lê o minhas-regras.md do meu brain e coloca cada regra de volta na skill certa, na seção Regras do SKILL.md. Não muda mais nada e me mostra o que entrou em cada skill.</span><button class="copy" type="button">Copiar</button></div></div></li>
             <li class="step"><div><h3>Feche a sessão, abra uma nova e digite /aju</h3><p>Skill nova só aparece numa sessão nova. Clique em <strong>+ Criar</strong>, confira se embaixo continua Este computador e ia-club, e digite <code>/aju</code>.</p></div></li>
           </ol>
@@ -1906,6 +1912,7 @@ pronto</div>
         <section id="e2-post-pauta" class="pstep" data-toc="1. A pauta no /conteudo">
           <div class="sub">NO CLAUDE CODE <span>·</span> /conteudo <span>·</span> pauta</div>
           <h3><span class="num">01</span>Peça a pauta, já dizendo o modelo se quiser</h3>
+          <p>Abra uma sessão nova: no app do Claude, aba <strong>Code</strong>, clique em <strong>+ Criar</strong> e confira se embaixo está <strong>Este computador</strong> e a pasta <code>ia-club</code>. Copie a frase abaixo, troque o tema pelo seu, cole na caixa de mensagem e envie. Os três passos deste bloco são na mesma sessão.</p>
           <div class="fr"><span>/conteudo pauta: treino de 30 minutos para quem trabalha o dia todo, no modelo Troque isso por isso</span><button class="copy" type="button">Copiar</button></div>
           <p>Sem dizer o modelo, a skill escolhe o que combina com o tema. Se for carrossel, ela pergunta:</p>
           <div class="cc" data-s="Anúncio ou vitrine">
@@ -1921,7 +1928,7 @@ pronto</div>
           <div class="sub">NO CLAUDE CODE <span>·</span> /copy</div>
           <h3><span class="num">02</span>Escolha a estrutura de copy e mande o print, se tiver</h3>
           <div class="fr"><span>/copy</span><button class="copy" type="button">Copiar</button></div>
-          <p>O /copy acha a pauta sozinho. Antes de escrever, ele mostra o cardápio de estruturas, com a sugerida marcada. Você escolhe ou responde “pode ser”:</p>
+          <p>Na mesma sessão, depois que a pauta ficou pronta, copie, cole e envie. O /copy acha a pauta sozinho. Antes de escrever, ele mostra o cardápio de estruturas, com a sugerida marcada. Você escolhe ou responde “pode ser”:</p>
           <ul class="labeled">
             <li><strong>PEPO</strong> (Promessa, Erros, Passo a passo, Oferta): começa no desejo, mostra os erros que impedem, dá o caminho e convida. Para atrair seguidor novo.</li>
             <li><strong>PCS</strong> (Problema, Causa, Solução): nomeia um problema que ela vive, explica por que acontece e mostra o caminho. Para fazer pensar e puxar conversa no direct.</li>
@@ -1945,7 +1952,7 @@ pronto</div>
           <div class="sub">NO CLAUDE CODE <span>·</span> /conteudo <span>·</span> montar</div>
           <h3><span class="num">03</span>Mande as fotos e os prints que a skill pedir</h3>
           <div class="fr"><span>/conteudo montar</span><button class="copy" type="button">Copiar</button></div>
-          <p>Se o modelo usa foto ou print, a skill pede antes de montar e diz para que serve. Arraste o arquivo para a conversa. As imagens saem na pasta do post, prontas para postar.</p>
+          <p>Ainda na mesma sessão, copie, cole e envie. Se o modelo usa foto ou print, a skill pede antes de montar e diz para que serve: arraste o arquivo do seu computador para a caixa de mensagem e envie. Quando ela pedir para salvar as imagens, clique em <strong>Permitir uma vez</strong>. As imagens saem na pasta do post, prontas para postar.</p>
           <div class="card conferir"><b><svg aria-hidden="true"><use href="#i-check"/></svg>COMO CONFERIR</b><ul><li>Todos os slides em pé (1080 x 1350), nada quadrado.</li><li>As suas cores e fontes, nada cortado nas bordas.</li><li>Se for anúncio, no máximo 10 slides.</li></ul></div>
           <div class="card falha"><b><svg aria-hidden="true"><use href="#i-alert"/></svg>SE FALHAR</b>
             <div class="fx"><p>Você se perdeu no meio do caminho.</p>Digite <code>/ajuda onde parei?</code>. Ela olha a pasta do post e diz o próximo comando.</div>
