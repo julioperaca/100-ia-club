@@ -659,7 +659,7 @@ figcaption{font-size:13px;color:var(--dim);margin-top:6px}
 <header class="topbar">
   <div class="topbar-in">
     <div class="brand">P<span>N</span>D</div>
-    <nav aria-label="Identificação da página"><b>100% IA Club</b><span>Material dos encontros</span><span class="tb-date">Manual · Setup 12/11 · Encontro 2 19/11 · 21h · pelo Zoom</span></nav>
+    <nav aria-label="Identificação da página"><b>100% IA Club</b><span>Material dos encontros</span><span class="tb-date">Setup 12/11 · Encontro 2 19/11 · 21h · pelo Zoom</span></nav>
     <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menuAulas"><svg aria-hidden="true"><use href="#i-menu"/></svg>Blocos</button>
   </div>
 </header>
@@ -672,13 +672,6 @@ figcaption{font-size:13px;color:var(--dim);margin-top:6px}
     </div>
     <div class="progress" aria-hidden="true"><i id="bar"></i></div>
     <div class="progress-label" id="barLabel">0 de 20 blocos · 0%</div>
-    <div class="module">
-      <div class="module-head"><span>CONSULTA</span><span>1 bloco</span></div>
-      <div class="module-title">Manual das skills (sempre atualizado)</div>
-      <ol class="lessons">
-        <li><label class="lchk"><input type="checkbox" data-aula="manual" aria-label="Manual lido"></label><a href="#manual"><span class="n">M</span><span class="t">Qual skill usar e em que ordem</span></a></li>
-      </ol>
-    </div>
     <div class="module">
       <div class="module-head"><span>QUINTA 12/11, 21H</span><span>9 blocos</span></div>
       <div class="module-title">Tudo instalado e o seu segundo cérebro pronto</div>
@@ -710,55 +703,18 @@ figcaption{font-size:13px;color:var(--dim);margin-top:6px}
         <li><label class="lchk"><input type="checkbox" data-aula="e2-semana" aria-label="Bloco 10 do Encontro 2 concluído"></label><a href="#e2-semana"><span class="n">10</span><span class="t">Seus dados e a semana</span></a></li>
       </ol>
     </div>
+    <div class="module">
+      <div class="module-head"><span>PARA CONSULTAR</span><span>sempre</span></div>
+      <div class="module-title">Manual das skills</div>
+      <ol class="lessons">
+        <li><label class="lchk"><input type="checkbox" data-aula="manual" aria-label="Manual lido"></label><a href="#manual"><span class="n">M</span><span class="t">Qual skill usar e em que ordem</span></a></li>
+      </ol>
+    </div>
   </aside>
 
   <main id="conteudo" tabindex="-1">
     <div class="content">
       <p class="page-hero">100% IA Club <span>· Setup 12/11 e Encontro 2 19/11</span></p>
-
-<article class="aula" id="manual" aria-labelledby="t-manual">
-        <div class="crumb"><span>100% IA Club</span><span>›</span><b>Manual das skills</b></div>
-        <div class="eyebrow">MANUAL · ATUALIZADO EM 19/11/2026</div>
-        <h1 id="t-manual"><span>Manual</span> das skills do Club</h1>
-        <p class="lede">O que cada skill faz, em que ordem usar e qual usar em cada situação. Na dúvida, volte aqui ou digite <code>/ajuda</code> no Claude.</p>
-        <div class="meta"><span class="chip">CONSULTA</span></div>
-        <details class="toc-m"><summary>NESTE BLOCO</summary><ul></ul></details>
-
-        <section id="man-antes" data-toc="Antes de tudo">
-          <div class="sec-tag">01 · ANTES DE TUDO</div>
-          <h2>Três coisas para lembrar</h2>
-          <ul class="labeled"><li>Toda skill lê o seu <strong>brain</strong> (o segundo cérebro). Por isso a /brain vem primeiro. Sem ela, as outras não sabem quem você é.</li><li>Você não precisa decorar nada. Toda skill termina dizendo o próximo passo e qual comando digitar. Ficou perdido? Digite <code>/ajuda</code> e conte o que você quer fazer.</li><li>Para chamar uma skill, digite a barra e o nome dela (<code>/copy</code>). Depois do nome, você pode escrever o pedido do seu jeito (<code>/copy legenda para o post de amanhã</code>).</li></ul>
-        </section>
-
-        <section id="man-quero" data-toc="O que eu quero fazer">
-          <div class="sec-tag">02 · POR SITUAÇÃO</div>
-          <h2>O que eu quero fazer</h2>
-          <p>Ache a frase que mais parece com o que você quer e siga os comandos na ordem.</p>
-          <ul class="labeled"><li><strong>Começar do zero no Club</strong> <code>/brain</code>, depois <code>/design-system</code></li><li><strong>Contar uma novidade do meu negócio (preço, plano, depoimento)</strong> <code>/brain atualiza: a novidade</code></li><li><strong>Mudar minhas cores ou fontes</strong> <code>/design-system ajusta: o que mudar</code></li><li><strong>Criar o meu método</strong> <code>/criador-de-metodo</code></li><li><strong>Montar a minha oferta ou saber quanto cobrar</strong> <code>/oferta</code></li><li><strong>Fazer um post</strong> 1. <code>/conteudo pauta: o tema</code> 2. <code>/copy</code> 3. <code>/conteudo montar</code></li><li><strong>Saber o que postar na semana</strong> 1. <code>/conteudo pauta da semana</code> 2. <code>/copy</code> em cada pauta 3. <code>/conteudo montar</code> em cada uma</li><li><strong>Usar um dos 7 modelos de post</strong> <code>/conteudo pauta: o tema, no modelo Troque isso por isso</code> (ou outro modelo), depois <code>/copy</code> e <code>/conteudo montar</code></li><li><strong>Analisar o perfil de outra pessoa</strong> <code>/conteudo espiar @perfil</code></li><li><strong>Melhorar um texto que eu já escrevi</strong> <code>/copy melhora esse texto:</code> e cole o texto</li><li><strong>Escrever legenda, roteiro de reels ou stories</strong> <code>/copy</code> (a capa do reels e os stories em imagem saem depois no <code>/conteudo montar</code>)</li><li><strong>Fechei um aluno novo</strong> 1. <code>/contrato Nome do aluno</code> 2. cadastre o aluno no painel (<code>+ Aluno</code>)</li><li><strong>Organizar alunos, renovações, agenda e dinheiro</strong> <code>/dashboard</code></li><li><strong>Mudar alguma coisa no painel</strong> <code>/dashboard o que você quer mudar</code></li><li><strong>Não sei qual usar</strong> <code>/ajuda o que eu quero fazer</code></li><li><strong>Saber onde parei</strong> <code>/ajuda onde parei?</code></li></ul>
-        </section>
-
-        <section id="man-post" data-toc="O caminho de um post">
-          <div class="sec-tag">03 · O CAMINHO DE UM POST</div>
-          <h2>Três passos, duas skills</h2>
-          <ol class="steps"><li class="step"><div><p><strong>/conteudo (pauta):</strong> decide o que postar. Tema, objetivo, formato e o modelo de post. Se for carrossel, pergunta se é para anúncio (até 10 slides) ou para a vitrine (até 20). Grava a <code>pauta.md</code>.</p></div></li><li class="step"><div><p><strong>/copy (texto):</strong> escreve o texto de cada slide e a legenda. Antes, mostra o cardápio de estruturas de copy para você escolher e pergunta se você tem print de resultado para provar o que vai falar. Grava o <code>texto.md</code>.</p></div></li><li class="step"><div><p><strong>/conteudo montar (imagens):</strong> pega o texto e monta as imagens com as suas cores e fontes. Pede as fotos e os prints que o modelo precisa. Grava os PNGs prontos para postar.</p></div></li></ol>
-          <div class="card info"><b><svg aria-hidden="true"><use href="#i-info"/></svg>QUEM FAZ O QUÊ</b>Quem escreve é o /copy. Quem decide e monta é o /conteudo.</div>
-        </section>
-
-        <section id="man-skills" data-toc="As skills, uma por uma">
-          <div class="sec-tag">04 · UMA POR UMA</div>
-          <h2>As skills</h2>
-          <div class="facts"><div class="fact"><b>/brain</b><ul class="labeled"><li><strong>O que faz:</strong> monta e atualiza o seu segundo cérebro: quem você é, seu negócio, sua aluna ideal, sua voz, seus cases.</li><li><strong>Quando usar:</strong> primeiro de tudo. E sempre que algo mudar no seu negócio.</li><li><strong>Como chamar:</strong> <code>/brain</code> (montar ou continuar), <code>/brain atualiza: o plano de 6 meses agora custa R$ 1.097</code>.</li><li><strong>Não faz:</strong> post, contrato ou painel.</li><li><strong>Depois dela:</strong> <code>/design-system</code>.</li></ul></div><div class="fact"><b>/design-system</b><ul class="labeled"><li><strong>O que faz:</strong> monta a sua identidade visual: cores, fontes e o jeito das suas peças. Todas as imagens das outras skills saem com ela.</li><li><strong>Quando usar:</strong> depois do /brain, antes de montar o primeiro post ou o painel.</li><li><strong>Como chamar:</strong> <code>/design-system</code>, <code>/design-system ajusta: quero o rosa mais vivo</code>.</li><li><strong>Não faz:</strong> posts. Ela só define a cara deles.</li><li><strong>Depois dela:</strong> <code>/conteudo</code> para o primeiro post.</li></ul></div><div class="fact"><b>/criador-de-metodo</b><ul class="labeled"><li><strong>O que faz:</strong> monta o esboço do seu método: até 3 pilares, nome, conceito, inimigo comum e argumentos. Você leva o esboço para o encontro e fecha com o Peraça.</li><li><strong>Quando usar:</strong> antes do encontro de método.</li><li><strong>Como chamar:</strong> <code>/criador-de-metodo</code>, <code>/criador-de-metodo fechei: o que ficou decidido</code>.</li><li><strong>Não faz:</strong> oferta nem preço.</li><li><strong>Depois dela:</strong> <code>/oferta</code>.</li></ul></div><div class="fact"><b>/oferta</b><ul class="labeled"><li><strong>O que faz:</strong> monta a oferta do seu Programa Personalizado: entregas, bônus, garantia, preço e nome.</li><li><strong>Quando usar:</strong> com o método pronto, ou quando for mudar preço ou plano.</li><li><strong>Como chamar:</strong> <code>/oferta</code>, <code>/oferta ajusta: quero tirar a escassez</code>.</li><li><strong>Não faz:</strong> página de vendas nem post.</li><li><strong>Depois dela:</strong> <code>/brain atualiza</code> com o preço novo, se mudou.</li></ul></div><div class="fact"><b>/conteudo</b><ul class="labeled"><li><strong>O que faz:</strong> três coisas. Espiar: analisa o perfil de outra pessoa e te dá ideias. Pauta: decide o que postar e em qual modelo. Montar: transforma o texto do /copy em imagens prontas.</li><li><strong>Quando usar:</strong> no começo de todo post (pauta) e no fim (montar).</li><li><strong>Como chamar:</strong> <code>/conteudo pauta da semana</code>, <code>/conteudo pauta: o tema</code>, <code>/conteudo espiar @perfil</code>, <code>/conteudo montar</code>.</li><li><strong>Os 7 modelos de post:</strong> Foto, nicho e headline; Troque isso por isso; Foi assim que; Frase sobre foto; Esse é o segredo; Plano prático; Carrossel tweet.</li><li><strong>Não faz:</strong> o texto do post. Isso é do /copy.</li><li><strong>Depois dela:</strong> da pauta, <code>/copy</code>. Do montar, é só postar.</li></ul></div><div class="fact"><b>/copy</b><ul class="labeled"><li><strong>O que faz:</strong> escreve o texto do post na sua voz: slides, legenda, roteiro de reels e stories. Mostra o cardápio de estruturas (PEPO, PCS, PAS, AIDA e outras) e explica cada uma.</li><li><strong>Quando usar:</strong> depois da pauta do /conteudo, ou para melhorar um texto seu.</li><li><strong>Como chamar:</strong> <code>/copy</code> (ele acha a pauta), <code>/copy legenda para o post de amanhã</code>, <code>/copy melhora esse texto:</code>.</li><li><strong>Não faz:</strong> imagens nem página de vendas.</li><li><strong>Depois dela:</strong> <code>/conteudo montar</code>.</li></ul></div><div class="fact"><b>/contrato</b><ul class="labeled"><li><strong>O que faz:</strong> gera o contrato do aluno do Programa Personalizado, em PDF, com os dados dele.</li><li><strong>Quando usar:</strong> toda vez que fechar um aluno novo. Uma vez só, use <code>/contrato integrar</code> para ligar o seu formulário de cadastro.</li><li><strong>Como chamar:</strong> <code>/contrato Nome do aluno</code>, <code>/contrato integrar</code>.</li><li><strong>Não faz:</strong> cobrança nem cadastro no painel.</li><li><strong>Depois dela:</strong> cadastre o aluno no painel do <code>/dashboard</code>.</li></ul></div><div class="fact"><b>/dashboard</b><ul class="labeled"><li><strong>O que faz:</strong> monta e ajusta o seu painel de gestão: alunos, renovações, agenda, dinheiro, tarefas e o que fazer hoje, com as suas cores.</li><li><strong>Quando usar:</strong> para montar o painel (Encontro 2) e sempre que quiser mudar alguma coisa nele.</li><li><strong>Como chamar:</strong> <code>/dashboard</code>, <code>/dashboard importar</code>, <code>/dashboard fico com o visual 1</code>, <code>/dashboard põe um aviso quando a aluna faltar 2 vezes</code>.</li><li><strong>Não faz:</strong> posts nem contrato.</li><li><strong>Depois dela:</strong> use o painel todo dia. Uma vez por semana, "Baixar meus dados".</li></ul></div><div class="fact"><b>/ajuda</b><ul class="labeled"><li><strong>O que faz:</strong> diz qual skill usar e em que ordem, a partir do que você quer fazer. Também olha o seu brain e diz onde você parou.</li><li><strong>Quando usar:</strong> sempre que ficar em dúvida.</li><li><strong>Como chamar:</strong> <code>/ajuda quero fazer um post para anúncio</code>, <code>/ajuda onde parei?</code>, <code>/ajuda o que faz a /oferta?</code>.</li><li><strong>Não faz:</strong> o trabalho das outras skills. Ela aponta o caminho e o comando.</li></ul></div></div>
-        </section>
-
-        <section id="man-ordem" data-toc="Ordem no Club">
-          <div class="sec-tag">05 · ORDEM</div>
-          <h2>A ordem recomendada no Club</h2>
-          <ol><li>1. <code>/brain</code> (setup, 12/11)</li><li>2. <code>/design-system</code> (setup, 12/11)</li><li>3. <code>/copy</code> e <code>/conteudo</code> (setup, 12/11; os 7 modelos entraram em 19/11)</li><li>4. <code>/contrato</code> (setup, 12/11)</li><li>5. <code>/dashboard</code> (Encontro 2, 19/11)</li><li>6. <code>/criador-de-metodo</code> e <code>/oferta</code> (encontros de método e oferta)</li></ol>
-          <h3>O que mudou no pacote</h3>
-          <ul><li>19/11/2026: /conteudo com os 7 modelos de post; /copy com o cardápio de estruturas (PEPO, PCS, PAS, AIDA, ADP e História com moral), anúncio ou vitrine e prova com print; skill /ajuda nova; todas as skills terminam com o próximo passo.</li><li>12/11/2026: primeiro pacote do Club.</li></ul>
-        </section>
-        <div class="aula-end"><button type="button" class="btn done-btn" data-aula="manual">Marcar como lido</button><a class="next-link" href="#a-comecar">Ir para o setup</a></div>
-      </article>
 
 <article class="aula" id="a-comecar" aria-labelledby="t-comecar">
         <div class="crumb"><span>100% IA Club</span><span>›</span><span>Setup inicial</span><span>›</span><b>Bloco 00</b></div>
@@ -2328,6 +2284,50 @@ pronto</div>
           </ul>
         </section>
         <div class="aula-end"><button type="button" class="btn done-btn" data-aula="e2-semana">Marcar bloco como concluído</button><a class="next-link" href="#e2-revisao">Voltar ao início do Encontro 2</a></div>
+      </article>
+
+<article class="aula" id="manual" aria-labelledby="t-manual">
+        <div class="crumb"><span>100% IA Club</span><span>›</span><b>Manual das skills</b></div>
+        <div class="eyebrow">MANUAL · ATUALIZADO EM 19/11/2026</div>
+        <h1 id="t-manual"><span>Manual</span> das skills do Club</h1>
+        <p class="lede">O que cada skill faz, em que ordem usar e qual usar em cada situação. Na dúvida, volte aqui ou digite <code>/ajuda</code> no Claude.</p>
+        <div class="meta"><span class="chip">CONSULTA</span></div>
+        <details class="toc-m"><summary>NESTE BLOCO</summary><ul></ul></details>
+
+        <section id="man-antes" data-toc="Antes de tudo">
+          <div class="sec-tag">01 · ANTES DE TUDO</div>
+          <h2>Três coisas para lembrar</h2>
+          <ul class="labeled"><li>Toda skill lê o seu <strong>brain</strong> (o segundo cérebro). Por isso a /brain vem primeiro. Sem ela, as outras não sabem quem você é.</li><li>Você não precisa decorar nada. Toda skill termina dizendo o próximo passo e qual comando digitar. Ficou perdido? Digite <code>/ajuda</code> e conte o que você quer fazer.</li><li>Para chamar uma skill, digite a barra e o nome dela (<code>/copy</code>). Depois do nome, você pode escrever o pedido do seu jeito (<code>/copy legenda para o post de amanhã</code>).</li></ul>
+        </section>
+
+        <section id="man-quero" data-toc="O que eu quero fazer">
+          <div class="sec-tag">02 · POR SITUAÇÃO</div>
+          <h2>O que eu quero fazer</h2>
+          <p>Ache a frase que mais parece com o que você quer e siga os comandos na ordem.</p>
+          <ul class="labeled"><li><strong>Começar do zero no Club</strong> <code>/brain</code>, depois <code>/design-system</code></li><li><strong>Contar uma novidade do meu negócio (preço, plano, depoimento)</strong> <code>/brain atualiza: a novidade</code></li><li><strong>Mudar minhas cores ou fontes</strong> <code>/design-system ajusta: o que mudar</code></li><li><strong>Criar o meu método</strong> <code>/criador-de-metodo</code></li><li><strong>Montar a minha oferta ou saber quanto cobrar</strong> <code>/oferta</code></li><li><strong>Fazer um post</strong> 1. <code>/conteudo pauta: o tema</code> 2. <code>/copy</code> 3. <code>/conteudo montar</code></li><li><strong>Saber o que postar na semana</strong> 1. <code>/conteudo pauta da semana</code> 2. <code>/copy</code> em cada pauta 3. <code>/conteudo montar</code> em cada uma</li><li><strong>Usar um dos 7 modelos de post</strong> <code>/conteudo pauta: o tema, no modelo Troque isso por isso</code> (ou outro modelo), depois <code>/copy</code> e <code>/conteudo montar</code></li><li><strong>Analisar o perfil de outra pessoa</strong> <code>/conteudo espiar @perfil</code></li><li><strong>Melhorar um texto que eu já escrevi</strong> <code>/copy melhora esse texto:</code> e cole o texto</li><li><strong>Escrever legenda, roteiro de reels ou stories</strong> <code>/copy</code> (a capa do reels e os stories em imagem saem depois no <code>/conteudo montar</code>)</li><li><strong>Fechei um aluno novo</strong> 1. <code>/contrato Nome do aluno</code> 2. cadastre o aluno no painel (<code>+ Aluno</code>)</li><li><strong>Organizar alunos, renovações, agenda e dinheiro</strong> <code>/dashboard</code></li><li><strong>Mudar alguma coisa no painel</strong> <code>/dashboard o que você quer mudar</code></li><li><strong>Não sei qual usar</strong> <code>/ajuda o que eu quero fazer</code></li><li><strong>Saber onde parei</strong> <code>/ajuda onde parei?</code></li></ul>
+        </section>
+
+        <section id="man-post" data-toc="O caminho de um post">
+          <div class="sec-tag">03 · O CAMINHO DE UM POST</div>
+          <h2>Três passos, duas skills</h2>
+          <ol class="steps"><li class="step"><div><p><strong>/conteudo (pauta):</strong> decide o que postar. Tema, objetivo, formato e o modelo de post. Se for carrossel, pergunta se é para anúncio (até 10 slides) ou para a vitrine (até 20). Grava a <code>pauta.md</code>.</p></div></li><li class="step"><div><p><strong>/copy (texto):</strong> escreve o texto de cada slide e a legenda. Antes, mostra o cardápio de estruturas de copy para você escolher e pergunta se você tem print de resultado para provar o que vai falar. Grava o <code>texto.md</code>.</p></div></li><li class="step"><div><p><strong>/conteudo montar (imagens):</strong> pega o texto e monta as imagens com as suas cores e fontes. Pede as fotos e os prints que o modelo precisa. Grava os PNGs prontos para postar.</p></div></li></ol>
+          <div class="card info"><b><svg aria-hidden="true"><use href="#i-info"/></svg>QUEM FAZ O QUÊ</b>Quem escreve é o /copy. Quem decide e monta é o /conteudo.</div>
+        </section>
+
+        <section id="man-skills" data-toc="As skills, uma por uma">
+          <div class="sec-tag">04 · UMA POR UMA</div>
+          <h2>As skills</h2>
+          <div class="facts"><div class="fact"><b>/brain</b><ul class="labeled"><li><strong>O que faz:</strong> monta e atualiza o seu segundo cérebro: quem você é, seu negócio, sua aluna ideal, sua voz, seus cases.</li><li><strong>Quando usar:</strong> primeiro de tudo. E sempre que algo mudar no seu negócio.</li><li><strong>Como chamar:</strong> <code>/brain</code> (montar ou continuar), <code>/brain atualiza: o plano de 6 meses agora custa R$ 1.097</code>.</li><li><strong>Não faz:</strong> post, contrato ou painel.</li><li><strong>Depois dela:</strong> <code>/design-system</code>.</li></ul></div><div class="fact"><b>/design-system</b><ul class="labeled"><li><strong>O que faz:</strong> monta a sua identidade visual: cores, fontes e o jeito das suas peças. Todas as imagens das outras skills saem com ela.</li><li><strong>Quando usar:</strong> depois do /brain, antes de montar o primeiro post ou o painel.</li><li><strong>Como chamar:</strong> <code>/design-system</code>, <code>/design-system ajusta: quero o rosa mais vivo</code>.</li><li><strong>Não faz:</strong> posts. Ela só define a cara deles.</li><li><strong>Depois dela:</strong> <code>/conteudo</code> para o primeiro post.</li></ul></div><div class="fact"><b>/criador-de-metodo</b><ul class="labeled"><li><strong>O que faz:</strong> monta o esboço do seu método: até 3 pilares, nome, conceito, inimigo comum e argumentos. Você leva o esboço para o encontro e fecha com o Peraça.</li><li><strong>Quando usar:</strong> antes do encontro de método.</li><li><strong>Como chamar:</strong> <code>/criador-de-metodo</code>, <code>/criador-de-metodo fechei: o que ficou decidido</code>.</li><li><strong>Não faz:</strong> oferta nem preço.</li><li><strong>Depois dela:</strong> <code>/oferta</code>.</li></ul></div><div class="fact"><b>/oferta</b><ul class="labeled"><li><strong>O que faz:</strong> monta a oferta do seu Programa Personalizado: entregas, bônus, garantia, preço e nome.</li><li><strong>Quando usar:</strong> com o método pronto, ou quando for mudar preço ou plano.</li><li><strong>Como chamar:</strong> <code>/oferta</code>, <code>/oferta ajusta: quero tirar a escassez</code>.</li><li><strong>Não faz:</strong> página de vendas nem post.</li><li><strong>Depois dela:</strong> <code>/brain atualiza</code> com o preço novo, se mudou.</li></ul></div><div class="fact"><b>/conteudo</b><ul class="labeled"><li><strong>O que faz:</strong> três coisas. Espiar: analisa o perfil de outra pessoa e te dá ideias. Pauta: decide o que postar e em qual modelo. Montar: transforma o texto do /copy em imagens prontas.</li><li><strong>Quando usar:</strong> no começo de todo post (pauta) e no fim (montar).</li><li><strong>Como chamar:</strong> <code>/conteudo pauta da semana</code>, <code>/conteudo pauta: o tema</code>, <code>/conteudo espiar @perfil</code>, <code>/conteudo montar</code>.</li><li><strong>Os 7 modelos de post:</strong> Foto, nicho e headline; Troque isso por isso; Foi assim que; Frase sobre foto; Esse é o segredo; Plano prático; Carrossel tweet.</li><li><strong>Não faz:</strong> o texto do post. Isso é do /copy.</li><li><strong>Depois dela:</strong> da pauta, <code>/copy</code>. Do montar, é só postar.</li></ul></div><div class="fact"><b>/copy</b><ul class="labeled"><li><strong>O que faz:</strong> escreve o texto do post na sua voz: slides, legenda, roteiro de reels e stories. Mostra o cardápio de estruturas (PEPO, PCS, PAS, AIDA e outras) e explica cada uma.</li><li><strong>Quando usar:</strong> depois da pauta do /conteudo, ou para melhorar um texto seu.</li><li><strong>Como chamar:</strong> <code>/copy</code> (ele acha a pauta), <code>/copy legenda para o post de amanhã</code>, <code>/copy melhora esse texto:</code>.</li><li><strong>Não faz:</strong> imagens nem página de vendas.</li><li><strong>Depois dela:</strong> <code>/conteudo montar</code>.</li></ul></div><div class="fact"><b>/contrato</b><ul class="labeled"><li><strong>O que faz:</strong> gera o contrato do aluno do Programa Personalizado, em PDF, com os dados dele.</li><li><strong>Quando usar:</strong> toda vez que fechar um aluno novo. Uma vez só, use <code>/contrato integrar</code> para ligar o seu formulário de cadastro.</li><li><strong>Como chamar:</strong> <code>/contrato Nome do aluno</code>, <code>/contrato integrar</code>.</li><li><strong>Não faz:</strong> cobrança nem cadastro no painel.</li><li><strong>Depois dela:</strong> cadastre o aluno no painel do <code>/dashboard</code>.</li></ul></div><div class="fact"><b>/dashboard</b><ul class="labeled"><li><strong>O que faz:</strong> monta e ajusta o seu painel de gestão: alunos, renovações, agenda, dinheiro, tarefas e o que fazer hoje, com as suas cores.</li><li><strong>Quando usar:</strong> para montar o painel (Encontro 2) e sempre que quiser mudar alguma coisa nele.</li><li><strong>Como chamar:</strong> <code>/dashboard</code>, <code>/dashboard importar</code>, <code>/dashboard fico com o visual 1</code>, <code>/dashboard põe um aviso quando a aluna faltar 2 vezes</code>.</li><li><strong>Não faz:</strong> posts nem contrato.</li><li><strong>Depois dela:</strong> use o painel todo dia. Uma vez por semana, "Baixar meus dados".</li></ul></div><div class="fact"><b>/ajuda</b><ul class="labeled"><li><strong>O que faz:</strong> diz qual skill usar e em que ordem, a partir do que você quer fazer. Também olha o seu brain e diz onde você parou.</li><li><strong>Quando usar:</strong> sempre que ficar em dúvida.</li><li><strong>Como chamar:</strong> <code>/ajuda quero fazer um post para anúncio</code>, <code>/ajuda onde parei?</code>, <code>/ajuda o que faz a /oferta?</code>.</li><li><strong>Não faz:</strong> o trabalho das outras skills. Ela aponta o caminho e o comando.</li></ul></div></div>
+        </section>
+
+        <section id="man-ordem" data-toc="Ordem no Club">
+          <div class="sec-tag">05 · ORDEM</div>
+          <h2>A ordem recomendada no Club</h2>
+          <ol><li>1. <code>/brain</code> (setup, 12/11)</li><li>2. <code>/design-system</code> (setup, 12/11)</li><li>3. <code>/copy</code> e <code>/conteudo</code> (setup, 12/11; os 7 modelos entraram em 19/11)</li><li>4. <code>/contrato</code> (setup, 12/11)</li><li>5. <code>/dashboard</code> (Encontro 2, 19/11)</li><li>6. <code>/criador-de-metodo</code> e <code>/oferta</code> (encontros de método e oferta)</li></ol>
+          <h3>O que mudou no pacote</h3>
+          <ul><li>19/11/2026: /conteudo com os 7 modelos de post; /copy com o cardápio de estruturas (PEPO, PCS, PAS, AIDA, ADP e História com moral), anúncio ou vitrine e prova com print; skill /ajuda nova; todas as skills terminam com o próximo passo.</li><li>12/11/2026: primeiro pacote do Club.</li></ul>
+        </section>
+        <div class="aula-end"><button type="button" class="btn done-btn" data-aula="manual">Marcar como lido</button><a class="next-link" href="#e2-atualizar">Voltar para o Encontro 2</a></div>
       </article>
 
     </div>
